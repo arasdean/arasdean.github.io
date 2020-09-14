@@ -1,0 +1,50 @@
+html,body {
+	padding: 10px !important;
+  height: auto;
+  width: auto;
+}
+
+body {
+  overflow-x: hidden; 
+}
+
+body p, h2, h3, h4, h5, a, li {
+	font-family: 'Frank Ruhl Libre', 'Josefin Sans', sans-serif;
+}
+
+.header-img{
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .header-img {
+    height: 314px;
+    width: 600px;
+  }
+}
+
+.main p {
+	font-size: 16px;
+}
+
+.about-me {
+  font-size: 14px;
+  width: 300px;
+}
+
+.main li {
+	font-size: 18px;
+}
+
+#movie-title {
+  font-size: 14px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.writing p {
+	font-size: 22px;
+	margin-top: 30px;
+}
